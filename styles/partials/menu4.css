@@ -1,0 +1,142 @@
+#container-m4 {
+  width: 80%;
+  height: auto;
+  font-family: fantasy;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.light-m4 {
+  font-size: 2.4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@supports (mix-blend-mode: lighten) {
+  section.light-m4 .gradient-m4 {
+    display: inline-block;
+    position: relative;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: multiply;
+  }
+  section.light-m4 .gradient-m4::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: -webkit-gradient(linear, left top, right top, from(#00701a), color-stop(#43a047), color-stop(#43a047), color-stop(#76d275), to(#76d275));
+    background: linear-gradient(to right, #00701a, #43a047, #43a047, #76d275, #76d275);
+    pointer-events: none;
+    mix-blend-mode: screen;
+  }
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px auto;
+}
+
+.title-m4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.3em;
+  width: 33%;
+  color: black;
+  font-weight: lighter;
+}
+
+section {
+  font-size: 1.1em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+footer {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.separateur {
+  width: 35%;
+  height: 30px;
+}
+
+@media screen and (max-width: 870px) {
+  .gradient-m4 {
+    font-size: 1.3em;
+    text-align: center;
+    display: inline-block;
+    background: white;
+    color: black;
+    position: relative;
+    margin: 0;
+  }
+  #container-m4 {
+    width: 100%;
+    margin: 0;
+  }
+  .block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .prix {
+    float: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 8px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .title-m4 {
+    width: 30%;
+    margin: 0;
+  }
+  li {
+    font-size: 1em;
+    text-align: center;
+  }
+  .separateur {
+    width: 40%;
+    height: auto;
+  }
+  .carte {
+    width: 90%;
+  }
+  section {
+    margin: 0;
+  }
+  .ul-m4 {
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=menu4.css.map */
