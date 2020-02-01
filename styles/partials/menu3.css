@@ -243,7 +243,8 @@ section {
     margin: 0;
     height: 10px;
     border-radius: 0px 0px 10px 10px;
-    rotate: 180deg;
+    -webkit-transform: rotate 180deg;
+            transform: rotate 180deg;
   }
   .btn2, .btn4, .btn6 {
     border-radius: 0px 0px 10px 10px;
