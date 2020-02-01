@@ -50,9 +50,10 @@ html {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.8em;
   margin: 20px auto 40px auto;
   -webkit-text-size-adjust: auto;
+  word-wrap: break-word;
 }
 
 .title-m2-1 {
@@ -74,7 +75,6 @@ html {
 }
 
 .li-m2-1 {
-  font-size: 1.1em;
   padding-bottom: 10px;
 }
 
