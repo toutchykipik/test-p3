@@ -51,6 +51,7 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 30px auto;
+  height: auto;
 }
 
 .title-m4 {

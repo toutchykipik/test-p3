@@ -1,8 +1,8 @@
 
-
 #bloc-page,html {
   width: 100%;
   height: auto;
+  font-family: fantasy;
 }
 
 #container-m2 {
@@ -15,11 +15,6 @@
   margin-bottom: 150px;
   padding-bottom: 50px;
   -webkit-margin-bottom-collapse: separate;
-}
-.bloc-page-m2{
-  background-color: #fff;
-  font-family: fantasy;
-  margin:0;
 }
 #box-m2{
   display:flex;
