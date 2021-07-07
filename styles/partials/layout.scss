@@ -1,15 +1,13 @@
 #bloc-page{
   width: 100%;
-  height: 100%;
+  height: auto;
   margin:0;
 }
-.header{
+.header1{
     text-align: center;
-    width: 100%;
-    height:130px;
+    height:100px;
     background-color: #00796b;
     color:#ffd54f;
-    font-size:1.3em;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -17,6 +15,14 @@
 .header > h1:nth-child(1) {
     color: #ffd54f;
     font-family: sans-serif;
+  }
+  #titreprincipale{
+    color:#ffd54f;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    font-size: 2.4em;
+
   }
   .titre{
     font-family: sans-serif;
@@ -41,7 +47,7 @@
 }
   li{
     vertical-align: middle;
-    font-size:0.9em;
+    font-size:1.5em;
     padding-left:50px;
     padding-bottom: 8px;
   }

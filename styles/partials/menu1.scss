@@ -1,5 +1,4 @@
 
-
 #container-m1{
     width:100%;
     font-family: fantasy;
@@ -7,6 +6,8 @@
 .bloc-page-m1{
     margin:0;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
    }
    .note1{
      display:flex;
@@ -18,7 +19,6 @@
    .note2{
        display: inline-flex;
        justify-content: center;
-       width:100%;
        width:60px;
        height:60px;
    }

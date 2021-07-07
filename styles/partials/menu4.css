@@ -51,6 +51,7 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 30px auto;
+  height: auto;
 }
 
 .title-m4 {
@@ -67,7 +68,6 @@
 }
 
 section {
-  font-size: 1.1em;
   margin-left: 5%;
   margin-right: 5%;
 }
